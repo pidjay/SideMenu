@@ -368,12 +368,15 @@
 				TargetAttributes = {
 					1CFBAFD841540AFF4D8957D6DC91C8C8 = {
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					92B1C7A9E8122442B031A44C1CA691AF = {
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					9A917F761DB457848033166EAD49121D = {
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 					E1DAF96BD20334D315D2D4F1ACA05F8F = {
 						LastSwiftMigration = 0800;
@@ -496,7 +499,7 @@
 			baseConfigurationReference = CCFF9BC0A5E0AEB1B572E08B7BEB5179 /* Pods-SideMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -530,7 +533,7 @@
 			baseConfigurationReference = DDF7D1E1EB67D0EE22B89DBA15B34455 /* Pods-SideMenu_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -563,7 +566,7 @@
 			baseConfigurationReference = 8C8996A684FFB0A03C0298FA9C22C599 /* Pods-SideMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -652,7 +655,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18CAD0A610A9A596A337B81EA6C75E82 /* SideMenu.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -682,7 +685,7 @@
 			baseConfigurationReference = 283B837F6AEE40BE625A3B7BF3D629C4 /* Pods-SideMenu_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -715,7 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18CAD0A610A9A596A337B81EA6C75E82 /* SideMenu.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
