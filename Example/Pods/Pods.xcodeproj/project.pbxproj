@@ -369,6 +369,9 @@
 					92B1C7A9E8122442B031A44C1CA691AF = {
 						LastSwiftMigration = 0800;
 					};
+					E1DAF96BD20334D315D2D4F1ACA05F8F = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -473,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18CAD0A610A9A596A337B81EA6C75E82 /* SideMenu.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = SideMenu;
 				SDKROOT = iphoneos;
@@ -619,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18CAD0A610A9A596A337B81EA6C75E82 /* SideMenu.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = SideMenu;
 				SDKROOT = iphoneos;
