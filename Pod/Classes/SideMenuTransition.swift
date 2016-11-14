@@ -47,16 +47,6 @@ internal class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewC
         return viewController
     }
     
-    class func handlePresentMenuLeftScreenEdge(edge: UIScreenEdgePanGestureRecognizer) {
-        SideMenuTransition.presentDirection = .Left
-        handlePresentMenuPan(edge)
-    }
-    
-    class func handlePresentMenuRightScreenEdge(edge: UIScreenEdgePanGestureRecognizer) {
-        SideMenuTransition.presentDirection = .Right
-        handlePresentMenuPan(edge)
-    }
-    
     class func handlePresentMenuPan(pan: UIPanGestureRecognizer) {
         if !SideMenuManager.menuEnableSwipeGestures {
             return
